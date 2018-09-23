@@ -6,15 +6,15 @@ Steps for Deploying to aws with elasticbeanstalk:
 1) Download /clone the code
 2) from the location of application.py 
  
- 	$ eb init -i (follow along the prompt for creating a unique <projectname>, awskeypair if you want to ssh)   
+ 	$ eb init -i (follow along the prompt for creating a unique projectname, awskeypair if you want to ssh)   
  
-	 $ eb create <projectname>
+	 $ eb create your_projectname
  
- 	$ eb open <projectname>
+ 	$ eb open your_projectname
  
  After completion don't forget to terminate.
  
- 	$ eb terminate <projectname>
+ 	$ eb terminate your_projectname
 
 Assumptions:
  You have an aws account. awscli and awsebcli are installed. 
